@@ -160,16 +160,7 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Parallax effect for hero image
-const heroImage = document.querySelector('.hero-image');
-if (heroImage) {
-    window.addEventListener('scroll', () => {
-        const scrollPos = window.pageYOffset;
-        if (scrollPos < window.innerHeight * 2) {
-            heroImage.style.transform = `translateY(${scrollPos * 0.5}px)`;
-        }
-    });
-}
+
 
 // Hover effect for service cards
 const serviceCards = document.querySelectorAll('.service-card');
