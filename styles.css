@@ -346,6 +346,8 @@ section:last-of-type {
     border: 3px solid var(--color-dark);
     box-shadow: var(--shadow-xl);
     position: relative;
+    width: 100%;
+    height: 500px;
 }
 
 .hero-image::before {
